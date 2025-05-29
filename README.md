@@ -24,18 +24,17 @@
 
 ### I have written test code only for billing login. You can either navigate to "src/test/java/com/example/datameter/Data/Meter/service/BillingCalculatorTest.java" to check full code and run from there, or simply run "mvn test" in the terminal.
 
-
-##C. Input Format
+## C. Input Format
 
 ### Input file should placed inside input/ directory and should have .txt extension
 ### Format : <mobile_number>|<unused_field>|<4G_data>|<5G_data>|<Roaming (Yes/No)>
 
-##D. Output
+## D. Output
 
 ### Any file format (.csv, .txt, etc) will be create and placed automatically in output/ directory
 ### Format : Mobile Number|4G|5G|4G Roaming|5G Roaming|Cost
 
-##E. Dependencies
+## E. Dependencies
 
 ### Java 17+
 ### Maven

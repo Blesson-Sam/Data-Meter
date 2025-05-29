@@ -22,7 +22,7 @@
 
 ## Running Test
 
-### I have written testing code for billing login. You can either navigate  "src/test/java/com/example/datameter/Data/Meter/service/BillingCalculatorTest.java" to check full code and run from there or just run "mvn test" on terminal.
+### I have written test code only for billing login. You can either navigate to "src/test/java/com/example/datameter/Data/Meter/service/BillingCalculatorTest.java" to check full code and run from there, or simply run "mvn test" in the terminal.
 
 
 ## Input Format

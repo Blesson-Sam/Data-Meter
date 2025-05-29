@@ -1,7 +1,7 @@
 # Data Meter
 ------------
 
-## Steps to Run the Project
+## A. Steps to Run the Project
 
 ### 1. Clone the Repository -> git clone https://github.com/Blesson-Sam/Data-Meter.git
 
@@ -20,22 +20,22 @@
       In same terminal Run -> java -jar ./target/Data-Meter-0.0.1-SNAPSHOT.jar ./input/ ./output/result.csv
       Note: You have to specify file name and extenson for output file (eg. result.csv, data.txt, etc)
 
-## Running Test
+## B. Running Test
 
 ### I have written test code only for billing login. You can either navigate to "src/test/java/com/example/datameter/Data/Meter/service/BillingCalculatorTest.java" to check full code and run from there, or simply run "mvn test" in the terminal.
 
 
-## Input Format
+##C. Input Format
 
 ### Input file should placed inside input/ directory and should have .txt extension
 ### Format : <mobile_number>|<unused_field>|<4G_data>|<5G_data>|<Roaming (Yes/No)>
 
-## Output
+##D. Output
 
 ### Any file format (.csv, .txt, etc) will be create and placed automatically in output/ directory
 ### Format : Mobile Number|4G|5G|4G Roaming|5G Roaming|Cost
 
-## Dependencies
+##E. Dependencies
 
 ### Java 17+
 ### Maven
